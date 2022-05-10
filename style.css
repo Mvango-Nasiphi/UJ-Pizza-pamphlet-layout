@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+}
+.Pizza {
+    border: 1px solid;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    background-color: plum;
+}
+@media (min-width: 768px) {
+    .Pizzas {
+    display: flex;
+}
+    body {
+    background-color: orangered;
+}
+}
+.footer {
+    width: 95%;
+    border: 1px solid;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    background-color: brown;
+    color: black;
+    display: inline-flex;
+}
+.address {
+    margin-left: 50%;
+}
